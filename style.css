@@ -1,0 +1,84 @@
+.arkaplan {
+    background-color: blueviolet;
+}
+
+.beyazkisim {
+    margin: 30px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+    padding: 50px;
+}
+
+.baslik {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.input {
+    border: 10px;
+    border-width: 5px;
+    border-color: #93C1F9;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.input:focus {
+    border: 10px;
+    border-width: 5px;
+    border-color: #93C1F9;
+    border-style: solid;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.div {
+    margin: 30px;
+}
+
+.form {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.sorulardiv {
+    margin-left: 100px
+}
+
+.sonsoru {
+    border: 10px;
+    border-width: 5px;
+    border-color: #93C1F9;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 24px;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #93C1F9;
+    border-width: 2px;
+    border-color: #93C1F9;
+    border-radius: 10px;
+    display: block;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
