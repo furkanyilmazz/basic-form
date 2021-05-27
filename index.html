@@ -10,71 +10,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Beni Ne Kadar Tanıyosun</title>
+    <title>Beni Ne Kadar Tanıyorsun ?</title>
 </head>
 
-<body class="arkaplan">
+<body class="bg">
 
-    <div class="beyazkisim">
+    <div class="container-md mt-5">
 
-        <h1>Beni Ne Kadar Tanıyorsun ?</h1>
+        <form action="" class="bg-white rounded-3 p-5 row g-2 ">
 
-        <form id="form">
-            <div class="form">
-                <div>
-                    <div class="div">
-                        <label for="En sevdiğim renk" class="baslik">En sevdiğim renk</label>
-                        <br>
-                        <input type="text" class="input" name="soru1" placeholder="Cevabınız">
-                    </div>
+            <h1 class="mt-2">Beni Ne Kadar Tanıyorsun ?</h1>
+            <br>
 
-                    <div class="div">
-                        <label for="Doğum Günüm?" class="baslik">Doğum Günüm ?</label>
-                        <br>
-                        <input type="text" class="input" name="soru2" placeholder="Cevabınız">
-                    </div>
-
-                    <div class="div">
-                        <label for="En Sevdiğim Hayvan ?" class="baslik">En Sevdiğim Hayvan ?</label>
-                        <br>
-                        <input type="text" class="input" name="soru3" placeholder="Cevabınız">
-                    </div>
-
-                    <div class="div">
-                        <label for="Gitmek İstediğim Ülke ?" class="baslik">Gitmek İstediğim Ülke ?</label>
-                        <br>
-                        <input type="text" class="input" name="soru4" placeholder="Cevabınız">
-                    </div>
-                </div>
-
-                <div class="sorulardiv">
-                    <div class="div">
-                        <label for="En Sevdiğim Yemek ?" class="baslik">En Sevdiğim Yemek ?</label>
-                        <br>
-                        <input type="text" class="input" name="soru5" placeholder="Cevabınız">
-                    </div>
-
-                    <div class="div">
-                        <label for="Ne olmak istiyorum ?" class="baslik">Ne olmak istiyorum ?</label>
-                        <br>
-                        <input type="text" class="input" name="soru6" placeholder="Cevabınız">
-                    </div>
-
-                    <div class="div">
-                        <label for="Beni Ne Kadar Çok Seviyorsun ?" class="baslik">Beni Ne Kadar Çok Seviyorsun
-                            ?</label>
-                        <br>
-                        <input type="text" class="sonsoru" name="soru7" placeholder="Cevabınız">
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <label for="En sevdiğim renk" class="col-form-label-lg">En sevdiğim renk ? </label>
+                <input type="color" class="col-form-label-lg form-control" value="#563d7c" id="soru1"
+                    style="height: 40px;" placeholder="Cevabınız">
             </div>
 
-            <input type="submit" class="justify-content-center  button" form="form" value="GÖNDER"></input>
+            <div class="col-md-6">
+                <label for="En Sevdiğim Yemek" class="col-form-label-lg">En Sevdiğim Yemek ?</label>
+                <input type="text" class="form-control" id="soru1" placeholder="Cevabınız">
+            </div>
+
+            <div class="col-md-6">
+                <label for="Ne olmak istiyorum" class="col-form-label-lg">Ne olmak istiyorum ?</label>
+                <input type="text" class="form-control" id="soru1" placeholder="Cevabınız">
+            </div>
+
+            <div class="col-md-6">
+                <label for="En Sevdiğim Hayvan" class="col-form-label-lg">En Sevdiğim Hayvan ?</label>
+                <input type="text" class="form-control" id="soru1" placeholder="Cevabınız">
+            </div>
+
+            <div class="col-md-6">
+                <label for="Gitmek İstediğim Ülke" class="col-form-label-lg">Gitmek İstediğim Ülke ?</label>
+                <input type="text" class="form-control" id="soru1" placeholder="Cevabınız">
+            </div>
+
+            <div class="col-md-6">
+                <label for="Doğum Günüm" class="col-form-label-lg">Doğum Günüm ?</label>
+                <input type="text" class="form-control" id="soru1" placeholder="Cevabınız">
+            </div>
+
+            <div class="col-md-12">
+                <label for="Beni Ne Kadar Çok Seviyorsun" class="col-form-label-lg">Beni Ne Kadar Çok Seviyorsun
+                    ?</label>
+                <input type="text" class="form-control" id="soru1" placeholder="Cevabınız">
+            </div>
+
+            <button type="submit" class="btn btn-secondary col-sm-12 my-sm-4">GÖNDER</button>
 
         </form>
-
     </div>
 
+    <!--Bootstrap Start-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
     </script>
@@ -84,6 +74,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
+    <!--Bootstrap End-->
 </body>
 
 </html>
